@@ -1,8 +1,24 @@
 # Paradigmas de programación
 
 ## Imperativo
+
+Cuando el lenguaje me permite definir órdenes que debe ejecutar de forma secuencial.
+Podré, mediante el uso de algunas palabra clave (for, while, if, switch) hacer que se ejecute de forma condicional o repetitiva.
+
 ## Procedural
-## Funcional
+
+Cuando el lenguaje me permite crear / definir mis propias funciones(métodos, procedimientos, subrutinas)
+Y solicitar su ejecución posteriormente
+
+## Funcional << Java 1.8
+
+Cuando el lenguaje me permite que una variable referencie a una función.
+Y posteriormente ejecutar la función desde la variable.
+Es lo que me permite hacer...
+Desde el momento que el lenguaje me permite hacer eso:
+- Puedo crear funciones que reciben funciones como parámetros
+- Puedo crear funciones que devuelven funciones
+
 ## OO
 
 Cuando el lenguaje me permite definir mis propios tipos de datos, con sus propiedades y funciones particulares.
@@ -15,6 +31,19 @@ Esos tipos de datos, reflejan objetos del mundo real (o no).
     Usuario             nombre/email/fecha de nacimiento            .eresMayorDeEdad()
 
 ## Declarativo
+
+En este paradigma... no indico lo cómo hacer algo... sino el resultado que quiero obtener.
+
+    Felipe, si no hay silla:
+        Vete al ikea y compra una silla
+    Felipe, IF hay algo que no sea una silla debajo de la ventana:
+        Lo quitas
+    Felipe, IF, no hay una silla debajo de la ventana: 
+        Felipe, pon una silla debajo de la ventana.             Imperativa
+                                                                    En esta frase le indico a Felipe lo que tiene que hacer
+    Felipe, debajo de la ventana ha de haber una silla          Declarativa (Ansible, Kubernetes, Terraform, Docker-compose, Spring)
+                                                                    En esta frase le indico a Felipe el resultado que quiero obtener
+                                                                    En quién delego la toma de decisiones? Felipe
 
 # Librería
 
